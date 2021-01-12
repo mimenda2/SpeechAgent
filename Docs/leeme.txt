@@ -1,0 +1,6 @@
+	Windows 10 tiene, según la(s) variante(s) del paquete de idioma español instalada(s), las voces nuevas Microsoft Laura Mobile y Microsoft Pablo Mobile, pero no están disponibles en software de texto a voz. ¿Es posible desbloquear las voces nuevas?
+	De forma predeterminada, el uso de voces Microsoft mobile por parte de software de texto a voz mediante SAPI 5 está bloqueado. Puede desbloquearlo con una simple personalización en el registro. Descargue el fichero, extraiga el archivo para su versión e idioma del sistema operativo ("mobile_x86.reg" para 32 bits y "mobile_x64.reg" para 64 bits), haga clic con el botón secundario del mouse en el nombre del archivo y elija el elemento del menú contextual "Combinar". La voz Microsoft mobile aparecerá en la lista de voces disponibles en Balabolka.
+	
+	si necesitamos modo administrador abrir consola de msdos en modo administrador y poner este comando:
+	reg IMPORT "spanish(ES)_mobile_x64.reg"
+	
